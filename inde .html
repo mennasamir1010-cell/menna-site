@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>طبيبك</title>
+</head>
+<body style="direction: rtl; font-family: Tahoma; background: #f4f4f4; color: #222;">
+  <center>
+    <h1 style="color: #0078d7;">مرحبًا بك في موقع <span style="color:#009688;">طبيبك</span></h1>
+    <p>ابحث عن طبيبك بسهولة واحجز موعدك مجانًا</p>
+    <hr>
+
+    <h2>قائمة الأطباء</h2>
+    <table border="1" cellpadding="8">
+      <tr style="background:#0078d7; color:white;">
+        <th>الاسم</th>
+        <th>التخصص</th>
+        <th>المدينة</th>
+      </tr>
+      <tr>
+        <td>د. أحمد علي</td>
+        <td>طب عام</td>
+        <td>القاهرة</td>
+      </tr>
+      <tr>
+        <td>د. سارة محمد</td>
+        <td>أسنان</td>
+        <td>الإسكندرية</td>
+      </tr>
+    </table>
+
+    <hr>
+    <h2>احجز موعد</h2>
+    <form>
+      <label>الاسم الكامل:</label><br>
+      <input type="text" name="name" required><br><br>
+      <label>رقم الهاتف:</label><br>
+      <input type="tel" name="phone" required><br><br>
+      <label>اختر الطبيب:</label><br>
+      <select name="doctor">
+        <option>د. أحمد علي</option>
+        <option>د. سارة محمد</option>
+      </select><br><br>
+      <button type="submit" style="background:#0078d7; color:white; padding:8px 16px; border:none; border-radius:6px;">احجز الآن</button>
+    </form>
+    <hr>
+    <p>© 2025 مشروع تخرج — طبيبك</p>
+  </center>
+</body>
+</html>
